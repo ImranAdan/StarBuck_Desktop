@@ -23,6 +23,8 @@ namespace stockman_ui
         public MainWindow()
         {
             InitializeComponent();
+            this.Left = (System.Windows.SystemParameters.PrimaryScreenWidth / 2) - (this.Width / 2);
+            this.Top = (System.Windows.SystemParameters.PrimaryScreenHeight / 2) - (this.Height / 2);
         }
     }
 }
