@@ -28,7 +28,8 @@ namespace stockman_ui
 
         public MainWindow()
         {
-            scalingFactor = AppConfigReader.ConfigStringValueAs<long>("mainWindowScaleFactor");
+            // AppConfigReader.ConfigStringValueAs<long>("mainWindowScaleFactor"); TODO: this is buggy and need to be fixed, the mainWindowScaleFactor value failes to be converted to a float
+            scalingFactor = 1.65f;
             InitializeComponent();
             InitialiseMainWindowContainer();
         }
