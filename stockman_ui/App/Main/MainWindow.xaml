@@ -1,7 +1,8 @@
 ﻿<Window x:Class="stockman_ui.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Stock Manager" Height="350" Width="512" WindowStartupLocation="CenterOwner" WindowState="Maximized">
+        Title="Stock Manager" WindowStartupLocation="CenterOwner"
+        Icon="icon.ico" Background="LightSlateGray">
     <Grid>
         
     </Grid>
