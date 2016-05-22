@@ -35,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,6 +68,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app\utils\DateTimeUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -94,17 +96,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="app\main\icon.ico" />
+    <Resource Include="app\resources\imgs\icon.ico" />
+    <Resource Include="app\resources\imgs\add-icon.png" />
+    <Resource Include="app\resources\imgs\delete-icon.png" />
+    <Resource Include="app\resources\imgs\Help-icon.png" />
+    <Resource Include="app\resources\imgs\Mimetypes-text-credits-icon.png" />
+    <Resource Include="app\resources\imgs\Places-trash-full-icon.png" />
+    <Resource Include="app\resources\imgs\Printer-icon.png" />
+    <Resource Include="app\resources\imgs\Search-2-icon.png" />
+    <Resource Include="app\resources\imgs\printer.ico" />
     <Content Include="VisualStudio.gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\views\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\stockman_ui_lib\stockman_ui_lib.csproj">
-      <Project>{e8b92ad0-76b6-4acc-87a4-a227a4b6b2dd}</Project>
-      <Name>stockman_ui_lib</Name>
-    </ProjectReference>
+    <Folder Include="app\main\views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

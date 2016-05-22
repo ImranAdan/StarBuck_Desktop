@@ -14,7 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Configuration;
 
-using stockman_ui_lib.app;
 
 
 namespace stockman_ui
@@ -24,24 +23,14 @@ namespace stockman_ui
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private static MainWindow mainWindow;
-        private readonly float scalingFactor;
+        private readonly float scalingFactor = 1.65f;
 
         public MainWindow()
         {
-            // AppConfigReader.ConfigStringValueAs<long>("mainWindowScaleFactor"); TODO: this is buggy and need to be fixed, the mainWindowScaleFactor value failes to be converted to a float
-            scalingFactor = 1.65f;
             InitializeComponent();
+            
             InitialiseMainWindowContainer();
         }
-
-
-        public MainWindow getMainWindow()
-        {
-            return this;
-        }
-
 
         private void InitialiseMainWindowContainer()
         {

@@ -18,9 +18,9 @@ namespace stockman_ui
 
         void App_Startup(object sender, StartupEventArgs e)
         {
-            Debug.WriteLine("STARTING APPLICATION, LAUNCHING APP CONTAINER")
+            Debug.WriteLine("STARTING APPLICATION, LAUNCHING APP CONTAINER");
         }
-    }
+    
 
     }
 }
