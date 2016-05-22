@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Configuration;
 
+using stockman_ui_lib.app;
 
 
 namespace stockman_ui
@@ -24,6 +25,7 @@ namespace stockman_ui
     public partial class MainWindow : Window
     {
 
+        private static MainWindow mainWindow;
         private readonly float scalingFactor;
 
         public MainWindow()
@@ -33,6 +35,13 @@ namespace stockman_ui
             InitializeComponent();
             InitialiseMainWindowContainer();
         }
+
+
+        public MainWindow getMainWindow()
+        {
+            return this;
+        }
+
 
         private void InitialiseMainWindowContainer()
         {

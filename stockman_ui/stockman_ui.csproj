@@ -60,6 +60,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="app\config\AppConfigReader.cs" />
     <Compile Include="app\main\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -98,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\stockman_ui_lib\stockman_ui_lib.csproj">
+      <Project>{e8b92ad0-76b6-4acc-87a4-a227a4b6b2dd}</Project>
+      <Name>stockman_ui_lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stockman_ui", "stockman_ui\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stockman_ui_lib", "stockman_ui_lib\stockman_ui_lib.csproj", "{E8B92AD0-76B6-4ACC-87A4-A227A4B6B2DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stockman_test_ui_lib", "stockman_test_ui_lib\stockman_test_ui_lib.csproj", "{C92B045E-AD28-44AA-A80C-183BF16A558B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E8B92AD0-76B6-4ACC-87A4-A227A4B6B2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B92AD0-76B6-4ACC-87A4-A227A4B6B2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B92AD0-76B6-4ACC-87A4-A227A4B6B2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92B045E-AD28-44AA-A80C-183BF16A558B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92B045E-AD28-44AA-A80C-183BF16A558B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92B045E-AD28-44AA-A80C-183BF16A558B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92B045E-AD28-44AA-A80C-183BF16A558B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
