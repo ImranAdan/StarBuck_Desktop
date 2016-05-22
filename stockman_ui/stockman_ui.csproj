@@ -34,20 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.Facilities.EventWiring">
-      <HintPath>..\..\libs\Castle.Windsor.3.3.0\lib\sl5\Castle.Facilities.EventWiring.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Facilities.FactorySupport">
-      <HintPath>..\..\libs\Castle.Windsor.3.3.0\lib\sl5\Castle.Facilities.FactorySupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Facilities.Logging">
-      <HintPath>..\..\libs\Castle.Windsor.3.3.0\lib\sl5\Castle.Facilities.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Windsor">
-      <HintPath>..\..\libs\Castle.Windsor.3.3.0\lib\sl5\Castle.Windsor.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,14 +60,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="app\config\AppConfigReader.cs" />
     <Compile Include="app\main\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="app\utils\DateTime\DateTimeUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -112,7 +97,6 @@
     <Content Include="VisualStudio.gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\utils\Build\" />
     <Folder Include="app\views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

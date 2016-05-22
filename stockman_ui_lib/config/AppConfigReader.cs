@@ -15,7 +15,7 @@ namespace stockman_ui.app.config
             return configValue;
         }
 
-        public static T ConfigStringValueAs<T>(string key)
+        private static T GetConfigStringValueAs<T>(string key)
         {
             string configValue = ConfigurationManager.AppSettings[key].ToString();
             return (T) Convert.ChangeType(configValue, typeof(T));

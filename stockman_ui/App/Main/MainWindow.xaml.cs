@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Configuration;
 
-using stockman_ui.app.config;
+
 
 namespace stockman_ui
 {
